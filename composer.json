@@ -1,0 +1,23 @@
+{
+  "name": "reaway/think-file",
+  "type": "library",
+  "description": "think file",
+  "keywords": [],
+  "homepage": "https://github.com/reaway/think-file",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "reaway",
+      "email": "reaway@foxmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "ext-fileinfo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Think\\Component\\File\\": "src/"
+    }
+  }
+}
